@@ -1,7 +1,15 @@
-
-# TIPs
-<blockquote> An accurate and automated AI tool called TIPs for Teeth Instance and Pulps segmentation from CBCT.
+<div>
+<img src="LOGO.png" align="left" style="margin: 10 10 10 10;" height="150px">
+	<h1>TIPs</h1>
+An accurate and automated AI tool called TIPs for Teeth Instance and Pulps segmentation from CBCT.
 </blockquote>
+</div>
+<br />
+
+
+<hr />
+
+
 
 
 
