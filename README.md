@@ -10,12 +10,11 @@ An accurate and automated AI tool called TIPs for <strong>T</strong>eeth <strong
 </blockquote>
 </div>
 <br />
-<img src="LOGO2.png">
-
-<hr />
 
 
-
+<br />
+<br />
+<br />
 
 
 # System requirement
