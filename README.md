@@ -1,6 +1,6 @@
 
-# TeethMamba
-<blockquote> An accurate and automated AI tool called TeethMamba for teeth and pulps instance segmentation in CBCT.
+# TIPs
+<blockquote> An accurate and automated AI tool called TIPs for Teeth Instance and Pulps segmentation from CBCT.
 </blockquote>
 
 
