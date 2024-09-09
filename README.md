@@ -14,11 +14,10 @@ An accurate and automated AI tool called TIPs for <b><u>T</u></b>eeth <b><u>I</u
 
 <br />
 <br />
-<br />
 
 # Introduction
 TIPs works out-of-the-box without requiring any retraining. By inputting a CBCT image, users can obtain both semantic and instance segmentation for teeth and pulps. The final instance labeling follows the FDI World Dental Federation notation.
-![](https://github.com/TaoZhong11/nBEST/blob/main/nBEST_pipeline.jpg)
+![](https://github.com/TaoZhong11/TIPs/blob/main/Example.png)
 
 # System requirement
 Since this is a *Linux* based container, please install the container on a Linux system. The supported systems include but not limited to `Ubuntu`, `Debian`, `CentOS` and `Red Hat`. 
