@@ -66,11 +66,4 @@ If succeeded, the output should be the GPU card information on your PC.
 
 ### Download the pipeline
 
-Run 
-```
-docker pull wxyabc/nbest:1.3
-```
-
-After downloading, you can use ```docker images``` to see the container images you have downloaded.
-
-# Running the pipeline container
+To be continued.
