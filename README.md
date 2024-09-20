@@ -5,7 +5,7 @@
  
 <strong>TIPs</strong>: 
 
-An accurate and automated AI tool called TIPs for <b><u>T</u></b>eeth <b><u>I</u></b>nstance and <b><u>P</u></b>ulps <b><u>s</u></b>egmentation from CBCT.
+An accurate and automated AI tool called TIPs for <b><u>T</u></b>eeth <b><u>I</u></b>nstance and <b><u>P</u></b>ulp <b><u>s</u></b>egmentation from CBCT.
 
 </blockquote>
 </div>
