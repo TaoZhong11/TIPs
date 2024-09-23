@@ -40,3 +40,25 @@ sanity test: Enter python command-line interface and run
 ```bash
 import torch
 import mamba_ssm
+```
+# Model download
+```bash
+
+```
+
+# Model path setting
+
+```python
+vi ~/.bashrc
+export nnUNet_results = "/home/path/to/TIPs/nnResults"  # models_path
+source ~/.bashrc
+```
+
+# Inference
+```python
+python   TIPs.py   folder_to_be_processed
+```
+
+# Acknowledgments
+
+We acknowledge all the authors of the employed public datasets, allowing the community to use these valuable resources for research purposes. We also thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [U-Mamba](https://github.com/bowang-lab/U-Mamba) and [Mamba](https://github.com/state-spaces/mamba) for making their valuable code publicly available.
