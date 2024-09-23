@@ -84,7 +84,7 @@ for filename in os.listdir(input_folder):
 
 # Teeth Segmentation
 print("Processing Teeth Segmentation.")
-os.system('nnUNetv2_predict  -i  '+folder_base_name+"_resample_teeth_input"+'  -o  '+ folder_base_name+"_resample_teeth_binary"+'  -d    803   -c    3d_fullres    -f   1   -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth --c  -npp=2 -nps=2 ' )
+os.system('nnUNetv2_predict  -i  '+folder_base_name+"_resample_teeth_input"+'  -o  '+ folder_base_name+"_resample_teeth_binary"+'  -d    803   -c    3d_fullres    -f   all   -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth --c  -npp=1 -nps=1 ' )
 
 
 
@@ -254,7 +254,7 @@ for filename in os.listdir(folder_base_name+"_resample_teeth_input"):
 
     
 print("Processing Teeth Instance Segmentation.")
-os.system('nnUNetv2_predict -step_size 0.6  -i  '+folder_base_name+"_resample_teeth_input"+'  -o  '+ folder_base_name+"_resample_teeth_instance"+' -d  812    -c    3d_fullres    -f   0  -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth  -npp=2 -nps=2 --c ' )
+os.system('nnUNetv2_predict -step_size 0.8  -i  '+folder_base_name+"_resample_teeth_input"+'  -o  '+ folder_base_name+"_resample_teeth_instance"+' -d  812    -c    3d_fullres    -f   all  -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth  -npp=1 -nps=1 --c ' )
 
 print("Renumber the instance")       
 for file_name in os.listdir(folder_base_name+"_resample_teeth_instance"):
@@ -271,7 +271,7 @@ for file_name in os.listdir(folder_base_name+"_resample_teeth_instance"):
         nib.save(new_img, output_file_path)
         
 print("Processing Pulps Segmentation.")        
-os.system('nnUNetv2_predict -step_size 0.6  -i  '+folder_base_name+"_resample_pulps_input"+'  -o  '+ folder_base_name+"_resample_pulps_segmentation"+' -d 810    -c    3d_fullres    -f   all  -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth -npp=2 -nps=2 --c ' )
+os.system('nnUNetv2_predict -step_size  0.8  -i  '+folder_base_name+"_resample_pulps_input"+'  -o  '+ folder_base_name+"_resample_pulps_segmentation"+' -d 810    -c    3d_fullres    -f   all  -tr  nnUNetTrainerUMambaBot   -chk  checkpoint_best.pth -npp=1 -nps=1 --c ' )
 
 # Define the directories
 input_dir_pulp = folder_base_name+"_resample_pulps_segmentation"
