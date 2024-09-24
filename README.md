@@ -43,7 +43,7 @@ import mamba_ssm
 ```
 # Model download
 ```bash
-
+https://drive.google.com/file/d/1UuFgZ-kwRryPC-vK7w64xX0VO4iOAeGt/view?usp=drive_link
 ```
 
 # Model path setting
@@ -57,6 +57,16 @@ source ~/.bashrc
 # Inference
 ```python
 python   TIPs.py   folder_to_be_processed
+```
+# Paper
+
+```
+@article{TIPs,
+    title={TIPs: Tooth Instances and Pulp segmentation based on hierarchical extraction and fusion of anatomical priors from cone-beam CT},
+    author={Tao Zhong, Yang Ning, Xueyang Wu, Li Ye, Chichi Li, Yu Du, and Yu Zhang},
+    journal={Under Review},
+    year={2024}
+}
 ```
 
 # Acknowledgments
