@@ -678,12 +678,6 @@ def predict_entry_point_modelfolder():
                              'jobs)')
 
 
-    print(
-        "\n#######################################################################\nPlease cite the following paper "
-        "when using nnU-Net:\n"
-        "Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). "
-        "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. "
-        "Nature methods, 18(2), 203-211.\n#######################################################################\n")
 
     args = parser.parse_args()
     args.f = [i if i == 'all' else int(i) for i in args.f]
@@ -786,13 +780,7 @@ def predict_entry_point():
                         help='Set this flag to disable progress bar. Recommended for HPC environments (non interactive '
                              'jobs)')
 
-    print(
-        "\n#######################################################################\nPlease cite the following paper "
-        "when using nnU-Net:\n"
-        "Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). "
-        "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. "
-        "Nature methods, 18(2), 203-211.\n#######################################################################\n")
-
+    
     args = parser.parse_args()
     args.f = [i if i == 'all' else int(i) for i in args.f]
 
