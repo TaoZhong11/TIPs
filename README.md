@@ -64,7 +64,7 @@ python   TIPs.py   folder_to_be_processed
 @article{TIPs,
     title={TIPs: Tooth Instances and Pulp segmentation based on hierarchical extraction and fusion of anatomical priors from cone-beam CT},
     author={Tao Zhong, Yang Ning, Xueyang Wu, Li Ye, Chichi Li, Yu Du, and Yu Zhang},
-    journal={Submitted to JBHI},
+    journal={Under Review},
     year={2024}
 }
 ```
