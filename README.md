@@ -43,7 +43,7 @@ import mamba_ssm
 ```
 # Model download
 ```bash
-
+https://drive.google.com/file/d/1UuFgZ-kwRryPC-vK7w64xX0VO4iOAeGt/view?usp=drive_link
 ```
 
 # Model path setting
