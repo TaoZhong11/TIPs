@@ -64,7 +64,7 @@ python   TIPs.py   folder_to_be_processed
     year={2024}
 }
 ```
-# Paper
+# Docker
 Coming soon.
 
 # Acknowledgments
