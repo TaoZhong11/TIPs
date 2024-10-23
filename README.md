@@ -46,6 +46,8 @@ https://drive.google.com/file/d/1UuFgZ-kwRryPC-vK7w64xX0VO4iOAeGt/view?usp=drive
 
 ```python
 vi ~/.bashrc
+export nnUNet_raw = "/home/path/to/TIPs/nnUNet_raw"  # models_path
+export nnUNet_preprocessed = "/home/path/to/TIPs/nnUNet_preprocessed"  # models_path
 export nnUNet_results = "/home/path/to/TIPs/nnResults"  # models_path
 source ~/.bashrc
 ```
